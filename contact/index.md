@@ -1,5 +1,5 @@
 ---
-title: "News &#038; Events"
+title: "News & Events"
 subtitle: "Contact me today!"
 robots: none
 ---
