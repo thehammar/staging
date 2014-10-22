@@ -5,18 +5,16 @@ robots: none
 ---
 ## Reach out. I am here for you.  
 
-a
-{{ page.url }}  
-a
-b
-{{ page.path }}  
-b
-c
-{{ page.id }}  
-c
-d
-{{ page.handle }}  
-d
+page.url:  {{ page.url }}  
+page.path:  {{ page.path }}  
+page.id:  {{ page.id }}  
+page.handle: {{ page.handle }}  
+page.content  {{ page.content }}
+
+site.pages {{ site.pages }}  
+site.posts {{ site.posts }}
+site.static_files:  {{ site.static_files }}  
+site.html_pages:  {{ site.html_pages }}  
 
 If you have general questions, please submit the form below. I will respond quickly with an answer.  
 
