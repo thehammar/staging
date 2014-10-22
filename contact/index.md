@@ -1,9 +1,12 @@
 ---
-title: Contact 
+title: "News &#038; Events"
 subtitle: "Contact me today!"
 robots: none
 ---
 ## Reach out. I am here for you.  
+
+page.title: {{ page.title }}
+page.title.slugified: {{ page.title | slugify }}
 
 page.url:  {{ page.url }}  
 page.path:  {{ page.path }}  
