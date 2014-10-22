@@ -5,6 +5,11 @@ robots: none
 ---
 ## Reach out. I am here for you.  
 
+{{ page.url }}  
+{{ page.path }}  
+{{ page.id }}  
+{{ page.handle }}  
+
 If you have general questions, please submit the form below. I will respond quickly with an answer.  
 
 {% include {{ page.d.inc }}/contact-form.html %}
