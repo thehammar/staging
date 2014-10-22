@@ -5,6 +5,11 @@ description: "I love marketing, graphic design, and printing!"
 ---
 # {{ page.description }}
 
+{{ page.url }}  
+{{ page.path }}  
+{{ page.id }}  
+{{ page.handle }}  
+
 [![mark][headshot]][contact]  
 {: #headshot .th .right .radius}
 
