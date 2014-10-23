@@ -4,7 +4,8 @@ baseurl: /staging
 lsi: false
 highlighter: pygments
 timezone: America/Los_Angeles
-permalink: /:categories/:year/:month/:title/ 
+permalink: pretty
+# permalink: /:categories/:year/:month/:title/ 
 # final trailing slash is optional here in config; will be appended to url address but not to {{ page.url }} liquid output 
 
 markdown: kramdown
