@@ -54,7 +54,8 @@ theme: &the_hammar
 layouts: *longmans_lay
 sass: 
   sass_dir: _includes/longmans/bower_components/foundation/scss
-# style: compressed
+  style: :nested # for dev
+# style: :compressed # for prod
 ## Longmans specific
 longmans: *the_hammar
 
