@@ -7,11 +7,40 @@ description: "Graphic Design by Mark Hammar"
   <div class="small-12 column">
 ## Helping your company  
 
-{{ page.url }}  
-{{ page.path }}  
-{{ page.id }}  
-{{ page.handle }}  
-{{ jekyll.environment }}
+page.url: {{ page.url }}  
+page.path: {{ page.path }}  
+page.id: {{ page.id }}  
+page.handle: {{ page.handle }}  
+jekyll.environment: {{ jekyll.environment }}  
+site.github: 
+site.github.hostname: {{ site.github.hostname }}  
+site.github.pages_hostname: {{ site.github.pages_hostname }}  
+site.github.api_url: {{ site.github.api_url }}  
+site.github.environment: {{ site.github.environment }}  
+site.github.public_repositories: {{ site.github.public_repositories }}  
+site.github.organization_members: {{ site.github.organization_members }}  
+site.github.build_revision: {{ site.github.build_revision }}  
+site.github.project_title: {{ site.github.project_title }}  
+site.github.project_tagline: {{ site.github.project_tagline }}  
+site.github.owner_name: {{ site.github.owner_name }}  
+site.github.owner_url: {{ site.github.owner_url }}  
+site.github.owner_gravatar_url: {{ site.github.owner_gravatar_url }}  
+site.github.repository_url: {{ site.github.repository_url }}  
+site.github.repository_nwo: {{ site.github.repository_nwo }}  
+site.github.repository_name: {{ site.github.repository_name }}  
+site.github.zip_url: {{ site.github.zip_url }}  
+site.github.tar_url: {{ site.github.tar_url }}  
+site.github.clone_url:  {{ site.github.clone_url }}  
+site.github.releases_url:  {{ site.github.releases_url }}  
+site.github.issues_url:  {{ site.github.issues_url }}  
+site.github.wiki_url:  {{ site.github.wiki_url }}  
+site.github.language:  {{ site.github.language }}  
+site.github.is_user_page:  {{ site.github.is_user_page }}  
+site.github.is_project_page:  {{ site.github.is_project_page }}  
+site.github.show_downloads:  {{ site.github.show_downloads }}  
+site.github.url:  {{ site.github.url }}  
+site.github.contributors:  {{ site.github.contributors }}  
+site.github.releases:  {{ site.github.releases }}  
 
 **The world changes constantly. For your company to be heard, you need to be more nimble than ever. Identifying and creating organizational change is never easy. That's where my 20 years of experience in the communication, design and printing fields comes in handy.**  
 
