@@ -12,8 +12,10 @@ description: "Graphic Design by Mark Hammar"
 - page.id: {{ page.id }}  
 - page.handle: {{ page.handle }}  
 - jekyll.environment: {{ jekyll.environment }}  
+- jekyll.environment (truncated to 3): {{ '{{ jekyll.environment }}' | truncate: 3 }}  
 
 site.github: {{ site.github }}  
+
 - site.github.hostname: {{ site.github.hostname }}  
 - site.github.pages_hostname: {{ site.github.pages_hostname }}  
 - site.github.api_url: {{ site.github.api_url }}  
